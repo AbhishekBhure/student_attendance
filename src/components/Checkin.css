@@ -1,0 +1,24 @@
+/* body{
+    background-color: #4e54c8;
+} */
+
+.img2{
+    position: absolute;
+    width: 30%;
+    top: 10%;
+    left: 5%;
+}
+
+.img3{
+    position: absolute;
+    width: 35%;
+    top: 65%;
+    right: 10%;
+}
+
+@media screen and (max-width: 768px){
+    .img2, .img3{
+        display: none;
+    }
+    
+}
